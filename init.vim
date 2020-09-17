@@ -19,11 +19,12 @@ source $HOME/.config/nvim/general/functions.vim
 
 " Themes
 " source $HOME/.config/nvim/themes/syntax.vim
-" source $HOME/.config/nvim/themes/airline.vim
+source $HOME/.config/nvim/themes/airline.vim
 
 " Plugin Configuration
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/auto-pairs.vim
 " source $HOME/.config/nvim/plug-configbetter-whitespace.vim
 " source $HOME/.config/nvim/plug-config/fzf.vim
 " source $HOME/.config/nvim/plug-config/gitgutter.vim
