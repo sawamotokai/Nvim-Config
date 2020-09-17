@@ -7,6 +7,7 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+
 "split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -65,4 +66,4 @@ autocmd filetype python nnoremap <f5> :w <bar> :!python3 % <cr>
 autocmd filetype cpp nnoremap <f4> :w <bar> !g++ -std=c++11 % -o %:r && ./%:r < in <cr>
 autocmd filetype cpp nnoremap <f5> :w <bar> !./a.out < in <cr>
 autocmd filetype c nnoremap <f5> :w <bar> !make %:r && ./%:r <cr>
-autocmd filetype java nnoremap <f5> :w <bar> !javac % && java %:r <cr>
+autocmd filetype java nnoremap <f5> :w <bar> !javac % && java %:r <cr>"
