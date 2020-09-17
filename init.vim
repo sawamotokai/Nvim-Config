@@ -39,3 +39,4 @@ source $HOME/.config/nvim/plug-config/auto-pairs.vim
 if !empty(glob("~/.config/nvim/paths.vim"))
   source $HOME/.config/nvim/paths.vim
 endif
+
