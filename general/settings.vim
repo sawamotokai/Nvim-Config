@@ -24,11 +24,13 @@ nnoremap <silent> ]B :blast<CR>
 nnoremap Y y$ 
 "Copy all to clipboard
 nnoremap <C-y> gg"*yG 
+" Use esc to exit insert mode in :term
+tnoremap <Esc> <C-\\><C-n>
 
 set number
 set nu rnu
 
-set encoding=utf-8
+set encoding=UTF-8
 syntax on
 
 " some option settings
@@ -59,15 +61,13 @@ set nowritebackup                       " This is recommended by coc
 
 
 " Theme
-" color desert
-" colorscheme blue
 set cursorline
-hi CursorLine term=bold cterm=bold guibg=Grey
-highlight Comment cterm=italic gui=italic
-set guifont=Fira\ Code\ Nerd\ Font
+" hi CursorLine term=bold cterm=bold guibg=Grey
+" highlight Comment cterm=italic gui=italic
+" set guifont=Fira\ Code\ Nerd\ Font
 
 " run code
-nnoremap \ :te<enter>
+nnoremap \ <C-w>s:te<enter>
 autocmd filetype python nnoremap <f5> :w <bar> :!python3 % <cr>
 autocmd filetype cpp nnoremap <f4> :w <bar> !g++ -std=c++11 % -o %:r && ./%:r < in <cr>
 autocmd filetype cpp nnoremap <f5> :w <bar> !./a.out < in <cr>

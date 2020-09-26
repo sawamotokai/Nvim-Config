@@ -8,7 +8,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'honza/vim-snippets'
-
+Plug 'joshdick/onedark.vim'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
