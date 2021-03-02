@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/kaisawamoto/Desktop'
+let g:netrw_dirhist_7='/Users/kaisawamoto/Desktop/codingContests'
+let g:netrw_dirhist_6='/Users/kaisawamoto/Desktop/codingContests/AtCoder/ABC/75'
+let g:netrw_dirhist_5='/Users/kaisawamoto/Desktop/CPSC/314/raytracer'
+let g:netrw_dirhist_4='/Users/kaisawamoto/Desktop/work/codingTests'
+let g:netrw_dirhist_3='/Users/kaisawamoto/Desktop/codingContests/AtCoder/ABC/181'
+let g:netrw_dirhist_2='/Users/kaisawamoto/Desktop/codingContests/AtCoder/ABC/acl2'
 let g:netrw_dirhist_1='/Users/kaisawamoto/Downloads/a1/code'

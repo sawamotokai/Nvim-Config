@@ -26,10 +26,11 @@ source $HOME/.config/nvim/themes/theme.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/auto-pairs.vim
+source $HOME/.config/nvim/plug-config/which-key.vim
+source $HOME/.config/nvim/plug-config/fzf.vim
+source $HOME/.config/nvim/plug-config/floaterm.vim
 " source $HOME/.config/nvim/plug-configbetter-whitespace.vim
-" source $HOME/.config/nvim/plug-config/fzf.vim
 " source $HOME/.config/nvim/plug-config/gitgutter.vim
-" source $HOME/.config/nvim/plug-config/floaterm.vim
 " source $HOME/.config/nvim/plug-config/polyglot.vim
 " source $HOME/.config/nvim/plug-config/bracey.vim
 " source $HOME/.config/nvim/plug-config/markdown-preview.vim
