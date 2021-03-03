@@ -25,7 +25,8 @@ nnoremap <silent> ]B :blast<CR>
 nnoremap Y y$ 
 "Copy all to clipboard
 nnoremap <C-y> gg"*yG 
-" Use esc to exit insert mode in :term
+"
+"Use esc to exit insert mode in :term
 tnoremap <Esc> <C-\\><C-n>
 
 set number
