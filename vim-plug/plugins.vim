@@ -16,6 +16,9 @@ Plug 'airblade/vim-rooter'
 Plug 'voldikss/vim-floaterm'
 Plug 'wakatime/vim-wakatime'
 Plug 'liuchengxu/vim-which-key'
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+Plug 'francoiscabrol/ranger.vim'
+Plug 'rbgrouleff/bclose.vim'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()

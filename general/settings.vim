@@ -2,6 +2,9 @@
 imap jj <Esc>
 let mapleader = "\<Space>"
 
+" cd into currnet files directory : https://vim.fandom.com/wiki/Set_working_directory_to_the_current_file
+nnoremap <leader>d :cd %:p:h<CR>
+
 " disable arrow keys
 noremap <UP> <Nop>
 noremap <Down> <Nop>

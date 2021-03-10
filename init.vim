@@ -29,6 +29,8 @@ source $HOME/.config/nvim/plug-config/auto-pairs.vim
 source $HOME/.config/nvim/plug-config/which-key.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
+source $HOME/.config/nvim/plug-config/ranger.vim
+" source $HOME/.config/nvim/plug-config/rnvimr.vim
 " source $HOME/.config/nvim/plug-configbetter-whitespace.vim
 " source $HOME/.config/nvim/plug-config/gitgutter.vim
 " source $HOME/.config/nvim/plug-config/polyglot.vim
